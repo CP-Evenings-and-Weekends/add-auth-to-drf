@@ -54,18 +54,18 @@ In `accounts/serializers.py` write a `SignupSerializer` that:
 
 In `accounts/views.py` write a `SignupView` (a DRF `CreateAPIView`) that uses your serializer and sets `permission_classes = [AllowAny]` (otherwise no one could ever sign up).
 
-In `accounts/urls.py` wire two routes:
-- `signup/` → your `SignupView`
-- `get-token/` → DRF's built-in `obtain_auth_token`
+In `accounts/urls.py` wire two routes (no trailing slash, matching the lesson):
+- `signup` → your `SignupView`
+- `get-token` → DRF's built-in `obtain_auth_token`
 
 Then include `accounts.urls` in your project `urls.py`.
 
 ### 3. Verify the full flow with Postman
 
-1. `GET /<some_protected_endpoint>/` → expect `401 Unauthorized`
-2. `POST /accounts/signup/` with `{"username": "...", "password": "..."}` → expect `201` (and confirm the response does **not** include the password)
-3. `POST /accounts/get-token/` with the same credentials → expect a `{"token": "..."}` response
-4. `GET /<some_protected_endpoint>/` again, this time with header `Authorization: Token <your_token>` → expect `200` with your data
+1. `GET /<some_protected_endpoint>` → expect `401 Unauthorized`
+2. `POST /accounts/signup` with `{"username": "...", "password": "..."}` → expect `201` (and confirm the response does **not** include the password)
+3. `POST /accounts/get-token` with the same credentials → expect a `{"token": "..."}` response
+4. `GET /<some_protected_endpoint>` again, this time with header `Authorization: Token <your_token>` → expect `200` with your data
 
 ## Things to think about
 - Why **`write_only=True`** on the password field?  What happens if you forget it?  (Try it — every signup will echo the plaintext password back in the 201 response.)
