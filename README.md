@@ -2,14 +2,14 @@
 
 A backend assignment — pick a DRF project you've already built and bolt on Django Token Auth.  By the end, every endpoint requires a token, and you have working signup + login routes that hand out tokens.
 
-> Saturday's lesson (`Token Auth on the Frontend`) builds a vanilla-JS frontend that consumes a protected DRF API.  Finish this assignment Wednesday so you have a project to point the frontend at on Saturday.
+> Saturday's lesson (`Token Auth on the Frontend`) builds a vanilla-JS frontend that consumes a protected DRF API.  Finish this assignment tonight so you have a project to point the frontend at on Saturday.
 
 ## Pick a DRF project
 
 Any one of these works — pick the one that feels easiest to bring back online:
 - Your **School API** stack from week 12-13 (you already have models + endpoints)
 - The lesson's [drf-wine-api](https://github.com/CP-Evenings-and-Weekends/drf-wine-api)
-- The [Article Publications](https://github.com/CP-Evenings-and-Weekends/article-publications) project from Mon Aug 24
+- The [Article Publications](https://github.com/CP-Evenings-and-Weekends/article-publications) project, if you've built it
 - Your **Personal Project API Prototype** from this week
 - Anything else with DRF + at least one endpoint
 
