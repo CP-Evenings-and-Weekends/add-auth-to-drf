@@ -1,0 +1,74 @@
+[
+    {
+      "model": "class_app.class",
+      "pk": 1,
+      "fields": {
+        "subject": "Python",
+        "professor": "Mr. Cahan"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 2,
+      "fields": {
+        "subject": "JavaScript",
+        "professor": "Mrs. Zaynab"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 3,
+      "fields": {
+        "subject": "Ruby",
+        "professor": "Mr. Ben"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 4,
+      "fields": {
+        "subject": "Management",
+        "professor": "Mr. Nick"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 5,
+      "fields": {
+        "subject": "React",
+        "professor": "Mrs. Naranjo"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 6,
+      "fields": {
+        "subject": "Django",
+        "professor": "Mrs. Corozco"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 7,
+      "fields": {
+        "subject": "Csharp",
+        "professor": "Mr. Zack"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 8,
+      "fields": {
+        "subject": "Physical Education",
+        "professor": "Mr. Dennis"
+      }
+    },
+    {
+      "model": "class_app.class",
+      "pk": 9,
+      "fields": {
+        "subject": "Science",
+        "professor": "Mrs. Alex"
+      }
+    }
+    ]

@@ -1,0 +1,20 @@
+[
+    {
+      "model": "grade_app.grade",
+      "pk": 1,
+      "fields": {
+        "grade": "98.77",
+        "a_class": 1,
+        "student": 1
+      }
+    },
+    {
+      "model": "grade_app.grade",
+      "pk": 2,
+      "fields": {
+        "grade": "33.55",
+        "a_class": 2,
+        "student": 2
+      }
+    }
+    ]

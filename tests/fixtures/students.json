@@ -1,0 +1,41 @@
+[
+    {
+      "model": "student_app.student",
+      "pk": 1,
+      "fields": {
+        "name": "Johnny H. Miller",
+        "student_email": "johnny@school.com",
+        "personal_email": "johnny@gmail.com",
+        "locker_number": 1,
+        "locker_combination": "12-12-12",
+        "good_student": true,
+        "classes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "model": "student_app.student",
+      "pk": 2,
+      "fields": {
+        "name": "Michelle B. Maraca",
+        "student_email": "michelle@school.com",
+        "personal_email": "michelle@gmail.com",
+        "locker_number": 110,
+        "locker_combination": "12-12-12",
+        "good_student": true,
+        "classes": [
+          2,
+          6,
+          7
+        ]
+      }
+    }
+    ]
